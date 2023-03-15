@@ -357,8 +357,12 @@ background: #FFFFFF;
 fill: #404BBF;
 }
 
-.customers-box:is(:hover, :focus){
+.customers-box:is(:hover){
 border-color: #404BBF;
+}
+
+.icon-link-customer :is(:focus){
+    color: #404BBF;
 }
 
 .customers-title {
