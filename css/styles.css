@@ -317,7 +317,7 @@ background: #FFFFFF;
     height: 16px;
 }
 
-.box-team-icon{
+.team-icon-link{
     width: 40px;
     height: 40px;
     background: #4D5AE5;
@@ -327,7 +327,7 @@ background: #FFFFFF;
     justify-content: center;
 }
 
-.box-team-icon:is(:hover, :focus)
+.team-icon-link:is(:hover, :focus)
 {
     background: var(--active-link-color);
 }
@@ -339,30 +339,28 @@ background: #FFFFFF;
     gap: 24px;
 }
 
-.customers-box{
-    border: 1px solid #8E8F99;
-        border-radius: 4px;
-        width: 168px;
-        height: 88px;
-}
 
 .icon-customers{
     width: 104px;
     height: 56px;
-    fill: #8e8f99;
-    padding: 16px 32px;
+    fill: currentColor;
+
 }
 
-.icon-customers:is(:hover, :focus){
-fill: #404BBF;
+
+.icon-link-customer{
+    border: 1px solid #8E8F99;
+        border-radius: 4px;
+        width: 168px;
+        height: 88px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #8E8F99;
 }
 
-.customers-box:is(:hover){
-border-color: #404BBF;
-}
-
-.icon-link-customer :is(:focus){
-    color: #404BBF;
+.icon-link-customer:is(:hover, :focus){
+    border-color: #404BBF;
 }
 
 .customers-title {
@@ -414,7 +412,7 @@ font-weight: 500;
     gap: 16px;
 }
 
-.box-footer-icon{
+.footer-icon-link{
 width: 40px;
     height: 40px;
     background:rgba(255, 255, 255, 0.1);
@@ -429,7 +427,7 @@ width: 40px;
     height: 24px;
 }
 
-.box-footer-icon:is(:hover, :focus) {
+.footer-icon-link:is(:hover, :focus) {
 background: #31D0AA;
 }
 
